@@ -10,7 +10,7 @@ const NavBar = () => {
             </div>
             <div className='navBar_icon'>
                 <input type="text" placeholder='Buscar'/>
-                <i class="fa-sharp fa-light fa-cart-shopping"></i>
+                <i className="fa-sharp fa-solid fa-cart-shopping"></i>
                 <i className="fa-regular fa-user"></i>
             </div>
         </nav>
