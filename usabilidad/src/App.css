@@ -2,8 +2,16 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+text-decoration: none;
+list-style: none;
  /* border: solid red;  */
 }
+
+.App{
+  background-image: url("../src/assets/iconos/fondo_backgraunt.jpeg");
+  height: 900px;
+}
+
 .navBar{
   display: flex;
   height: 60px;
@@ -53,5 +61,95 @@ padding: 0;
   position:absolute;
   left: 6px;
   top: 5px;
+}
+.filter{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: rgba(205, 230,240, 0.45);
+  height: 35px;
+  align-items: center;
+}
+.lista{
+  display: flex;
+  gap: 1.5rem;  
+
+}
+/*hacer que se hagan un boton de manera grafica */
+.lista > li:hover{
+  cursor: pointer;
+}
+.info{
+  display: flex;
+  gap: 1rem;
+}
+.shop{
+  height: 100%;
+  display: flex;
+}
+.categorias{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  width: 20%;
+  height: 100%;
+  background-color: rgba(205, 230,240, 0.45);
+}
+.categoriasList{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.producto{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.card{
+  height: 35%;
+  width: 40%;
+  background-color: rgba(205, 230,240, 0.45);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+
+.pieImg{
+  display: flex;
+  flex-direction: column;
+}
+
+.ProducImg{
+  border-radius: 10px 10px 0 0;
+}
+
+.ProducImg > img{
+  border-radius: 10px 10px 0 0 ;
+}
+
+.precioAndStok{
+  display: flex;
+  justify-content: space-between;
+  position: relative; 
+}
+
+.precioAndStok::after{
+  position:absolute;
+  content: "+";
+  background-color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  box-shadow: 0 0 8px 1px rgb(173, 173, 173);
+  text-align: center;
+  font-weight:900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -17px;
+  right: 10px;
+  font-size: 20px;
 }
 
