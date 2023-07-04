@@ -12,8 +12,9 @@ function App() {
   return (
     // codigo <html>
     <>
+      <div className='App'>
       <NavBar/>
-      
+      </div>
     </>
   )
 }

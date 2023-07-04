@@ -55,3 +55,6 @@ padding: 0;
   top: 5px;
 }
 
+.App{
+  background-image: url("src\assets\iconos\fondo_background.jpg");
+}
