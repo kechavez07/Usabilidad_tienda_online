@@ -12,8 +12,11 @@ const NavBar = () => {
                     <input type="text" placeholder='Buscar'/>
                     <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <i className="fa-sharp fa-solid fa-cart-shopping"></i>
-                <i className="fa-regular fa-user"></i>
+                <div className='loginAndCart'>
+                    <i className="fa-sharp fa-solid fa-cart-shopping"></i>
+                    <i className="fa-regular fa-user"></i>
+                </div>
+                
             </div>
             
         </div>

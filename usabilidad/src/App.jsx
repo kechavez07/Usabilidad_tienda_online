@@ -15,12 +15,6 @@ function App() {
 
   return (
     // codigo <html>
-    <>
-<<<<<<< HEAD
-      <div className='App'>
-      <NavBar/>
-      </div>
-=======
     <div className='App'>
         <NavBar/>
         <Filter/>
@@ -29,8 +23,6 @@ function App() {
         <Producto/>
       </div>
     </div>
->>>>>>> refs/remotes/origin/main
-    </>
   )
 }
 

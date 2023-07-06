@@ -4,12 +4,13 @@ margin: 0;
 padding: 0;
 text-decoration: none;
 list-style: none;
- /* border: solid red;  */
+  /* border: solid red;   */
 }
 
 .App{
   background-image: url("../src/assets/iconos/fondo_backgraunt.jpeg");
   height: 900px;
+  
 }
 
 .navBar{
@@ -19,26 +20,39 @@ list-style: none;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo{
   height: 55px;
   display: flex;
   padding: 0 2rem;
 }
+
 .logo >img{
   height: 58px;
+  cursor: pointer;
 }
+
 .logo >h1{
   padding: 13px 0;
 }
+
 .navBar_icon{
   display: flex;
   height: 60px;
-  margin-left: auto;
-  justify-content: space-evenly;
-  width: 35%;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  justify-content: space-between;
+  width: 25%;
+  /* margin-right: 35px; */
   align-items: center;
 }
+
+.loginAndCart{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+}
+
 .search > input{
   height: 30px;
   border: solid 1px black;
@@ -49,6 +63,7 @@ list-style: none;
 
 .fa-solid, .fa-user{
   font-size: 30px;
+  cursor: pointer;
 }
 
 .search{
@@ -62,6 +77,7 @@ list-style: none;
   left: 6px;
   top: 5px;
 }
+
 .filter{
   width: 100%;
   display: flex;
@@ -71,23 +87,28 @@ list-style: none;
   height: 35px;
   align-items: center;
 }
+
 .lista{
   display: flex;
   gap: 1.5rem;  
 
 }
+
 /*hacer que se hagan un boton de manera grafica */
 .lista > li:hover{
   cursor: pointer;
 }
+
 .info{
   display: flex;
   gap: 1rem;
 }
+
 .shop{
   height: 100%;
   display: flex;
 }
+
 .categorias{
   display: flex;
   justify-content: center;
@@ -96,25 +117,31 @@ list-style: none;
   height: 100%;
   background-color: rgba(205, 230,240, 0.45);
 }
+
 .categoriasList{
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
+
+.categoriasList > li:hover{
+  cursor: pointer;
+}
+
 .producto{
   display: flex;
   justify-content: center;
   padding: 1rem;
 }
+
 .card{
   height: 35%;
   width: 40%;
-  background-color: rgba(205, 230,240, 0.45);
+  background-color: rgba(255, 255, 255, 0.685);
   display: flex;
   flex-direction: column;
   border-radius: 10px;
 }
-
 
 .pieImg{
   display: flex;
@@ -123,9 +150,11 @@ list-style: none;
 
 .ProducImg{
   border-radius: 10px 10px 0 0;
+  
 }
 
 .ProducImg > img{
+ 
   border-radius: 10px 10px 0 0 ;
 }
 
