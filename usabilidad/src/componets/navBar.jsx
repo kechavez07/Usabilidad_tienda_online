@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const NavBar = () => {
+const NavBar = (login,setLogin) => {
+
+    const[isLogin,setIsLogin]=useState(false)
+    const navigate = useNavigate()
+
+
     return (
         <div className='navBar'>
-            <div className='logo'> 
-                <img src="src\assets\iconos\onlineShop.png" href="index.html" />
+            <div className='logo' onClick={()=>navigate(`/`)}> 
+                <img src="src\assets\iconos\onlineShop.png" />
                 <h1>WEB STORE</h1>
             </div>
             <div className='navBar_icon'>
@@ -14,7 +20,7 @@ const NavBar = () => {
                 </div>
                 <div className='loginAndCart'>
                     <i className="fa-sharp fa-solid fa-cart-shopping"></i>
-                    <i className="fa-regular fa-user"></i>
+                    <i className="fa-regular fa-user" onClick={()=>navigate(`/login`)}></i>
                 </div>
                 
             </div>

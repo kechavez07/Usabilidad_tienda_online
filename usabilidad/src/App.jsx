@@ -5,23 +5,29 @@ import NavBar from './componets/navBar'
 import Filter from './componets/Filter'
 import Categorias from './componets/Categorias'
 import Producto from './componets/Producto'
+import Login from './componets/Login'
+import {HashRouter,Routes,Route} from 'react-router-dom'
+import Register from './componets/Register'
+import Home from './componets/Home'
+
 
 
 function App() {
-  
-   
- 
-  
 
   return (
     // codigo <html>
     <div className='App'>
-        <NavBar/>
-        <Filter/>
-      <div className='shop'>
-        <Categorias/>
-        <Producto/>
-      </div>
+    
+    <HashRouter>
+    <NavBar/>
+      <Routes>
+        <Route>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/register' element={<Register/>}/>
+        </Route>
+      </Routes>
+    </HashRouter>
     </div>
   )
 }
