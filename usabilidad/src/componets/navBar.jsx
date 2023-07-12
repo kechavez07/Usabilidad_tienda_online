@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <div className='logo'> 
-                <img src="src\assets\iconos\onlineShop.png" href="index.html" />
+                <img src="src\assets\iconos\onlineShop.png" href="src\main.jsx" />
                 <h1>WEB STORE</h1>
             </div>
             <div className='navBar_icon'>
@@ -14,7 +14,7 @@ const NavBar = () => {
                 </div>
                 <div className='loginAndCart'>
                     <i className="fa-sharp fa-solid fa-cart-shopping"></i>
-                    <i className="fa-regular fa-user"></i>
+                    <i className="fa-regular fa-user" href="src\componets\SobreNosotros.jsx"></i>
                 </div>
                 
             </div>
