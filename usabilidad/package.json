@@ -10,12 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "morgan": "^1.10.0",
-=======
     "axios": "^1.4.0",
     "mongodb": "^5.7.0",
->>>>>>> 128e75131ae98ec43d204370b09349aef0c2c4dc
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1"
