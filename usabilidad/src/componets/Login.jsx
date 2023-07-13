@@ -5,12 +5,12 @@ const Login = () => {
     const navigate = useNavigate()
 
     return (
-        <div>
+        <div className='fameloging'>
             <div className='user'>
                 <input type="text" placeholder='Ingrese su usuario' />
                 <input type="pasword" placeholder='Ingrese su contraseña' />
             </div>
-            <div>
+            <div className='botonIngresarlogin'>
                 <button>Ingresar</button>
                 <button onClick={()=>navigate(`/Register`)}>Registrarse</button>
             </div>

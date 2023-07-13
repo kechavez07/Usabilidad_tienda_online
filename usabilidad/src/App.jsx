@@ -9,6 +9,7 @@ import Login from './componets/Login'
 import {HashRouter,Routes,Route} from 'react-router-dom'
 import Register from './componets/Register'
 import Home from './componets/Home'
+import SobreNosotros from './componets/SobreNosotros'
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
+          <Route path='/sobreNosotros' element={<SobreNosotros/>}/>
         </Route>
       </Routes>
     </HashRouter>

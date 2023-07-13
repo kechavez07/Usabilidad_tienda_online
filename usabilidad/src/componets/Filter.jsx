@@ -1,6 +1,8 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
 const Filter = () => {
+    const navigate = useNavigate()
+
     return (
         <div className='filter'>
             <ul className='lista'>
@@ -16,7 +18,7 @@ const Filter = () => {
             </ul>
                 <div className='info'>
                 <box-icon name='info-circle'></box-icon>
-            <a>Sobre nosotros</a>
+            <a onClick={()=>navigate('/sobreNosotros')}>Sobre nosotros</a>
             </div>
         </div>
     );
