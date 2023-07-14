@@ -18,7 +18,6 @@ function App() {
   return (
     // codigo <html>
     <div className='App'>
-    
     <HashRouter>
     <NavBar/>
       <Routes>

@@ -13,13 +13,23 @@ list-style: none;
  /* border: solid red;     */
 }
 
-.App{
-  background-image: url("../src/assets/iconos/fondo_backgraunt.jpeg");
-  height: 900px;
-  
+html{
+  height:1880px;
 }
-<<<<<<< HEAD
 
+body{
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+
+.App{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  height:100%;
+}
 .navBar{
   display: flex;
   height: 60px;
@@ -99,7 +109,6 @@ list-style: none;
 .lista{
   display: flex;
   gap: 1.5rem;  
-
 }
 
 /*hacer que se hagan un boton de manera grafica */
@@ -122,9 +131,8 @@ list-style: none;
   justify-content: center;
   padding: 2rem 0;
   width: 20%;
-  height: 100%;
+  height: max-content;
   background-color: rgba(205, 230,240, 0.45);
-
 }
 
 .categoriasList{
@@ -198,7 +206,7 @@ list-style: none;
 .producto{
   padding: 2.5rem 1rem;
   width: 80%;
-  height: 80vh;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
