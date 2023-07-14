@@ -1,7 +1,7 @@
-@import url(src\css\loging.css);
-@import url(src\css\NavBar.css);
-@import url(src\css\Filter.css);
-@import url(src\css\Categorias.css);
+@import url("../src/css/loging.css");
+@import url("../src/css/NavBar.css");
+@import url("../src/css/Filter.css");
+@import url("../src/css/Categorias.css");
 
 
 *{

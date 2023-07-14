@@ -7,7 +7,6 @@ const Login = () => {
     return (
         <div className='fameloging'>
             <img src="src\assets\iconos\onlineShop.png"/>
-            <div className='user'>
                 <ul className='userlist'>
                     <li>
                         Usuario
@@ -18,10 +17,14 @@ const Login = () => {
                     </li>
                     <input type="pasword" placeholder='Ingrese su contraseña' />
                 </ul> 
-            </div>
             <div className='botonIngresarlogin'>
                 <button>Ingresar</button>
                 <button onClick={()=>navigate(`/Register`)}>Registrarse</button>
+            </div>
+            <div className='iconoslogin'>
+                <box-icon type='logo' name='facebook-circle'></box-icon>
+                <box-icon type='logo' name='instagram-alt'></box-icon>
+                <box-icon type='solid' name='envelope'></box-icon>
             </div>
    
         </div>
