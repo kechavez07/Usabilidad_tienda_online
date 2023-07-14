@@ -130,33 +130,38 @@ list-style: none;
   cursor: pointer;
 }
 
-.producto{
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-}
-
 .card{
-  height: 35%;
-  width: 40%;
+  height: 300px;
+  width: 180px;
   background-color: rgba(255, 255, 255, 0.685);
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  position: relative;
 }
 
 .pieImg{
+  padding: 1rem;
   display: flex;
   flex-direction: column;
 }
 
 .ProducImg{
   border-radius: 10px 10px 0 0;
-  
+  background-color: white;
+  width: 180px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priceTitle{
+  font-weight: bold;
 }
 
 .ProducImg > img{
- 
+  width: 70px;
   border-radius: 10px 10px 0 0 ;
 }
 
@@ -166,10 +171,10 @@ list-style: none;
   position: relative; 
 }
 
-.precioAndStok::after{
+.ProducImg::before{
   position:absolute;
   content: "+";
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -179,7 +184,17 @@ list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: -17px;
   right: 10px;
+  top: 145px;
   font-size: 20px;
+}
+.producto{
+  padding: 2.5rem 1rem;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  align-content: space-between;
 }

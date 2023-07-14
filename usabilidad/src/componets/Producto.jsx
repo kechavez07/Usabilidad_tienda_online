@@ -5,11 +5,11 @@ import axios from 'axios';
 
 
 const Producto = () => {
-    const[producsData,setProducsData]=useState({})
+
+    const[producsData,setProducsData]=useState([])
 
     useEffect(()=>{
         GetData()
-        console.log(producsData)
     },[])
 
     const GetData=()=>{
@@ -19,7 +19,11 @@ const Producto = () => {
 
     return (
         <div className='producto'>
-            <Card/>
+            {
+                producsData.map((productItem)=>(
+                    <Card  key={productItem.id} description={productItem.description} image={productItem.image} price={productItem.price} title={productItem.title}/>     
+                ))
+            }
         </div>
     );
 };
