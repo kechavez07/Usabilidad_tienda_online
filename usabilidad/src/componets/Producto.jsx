@@ -19,7 +19,11 @@ const Producto = () => {
 
     return (
         <div className='producto'>
-            <Card/>
+            {
+                producsData.map((producItem)=>(
+                    <Card price={ producItem.price} description = { producItem.description} image = {producItem.image} title = {producItem.title} />
+                ))
+            }
         </div>
     );
 };

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Card = () => {
+const Card = (price, description , image, title) => {
     return (
         <div className='card'>
             <div className='ProducImg'>
-                <img src="../src/assets/iconos/camisa_prueba.jpg" />
+                <img src={image} />
             </div>
             <div className='pieImg'>
                 <div className='precioAndStok'>
