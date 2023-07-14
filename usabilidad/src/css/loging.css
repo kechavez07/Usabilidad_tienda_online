@@ -1,0 +1,28 @@
+.fameloging{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  justify-content: space-between;
+  background-color: rgba(205, 230,240, 0.45);
+} 
+
+.user{
+  border: solid red;
+  display: flex;
+  justify-content: center
+  
+
+}
+/* .user > li:hover{
+  justify-items: center;
+} */
+
+.botonIngresarlogin{
+  display: flex;
+  justify-content: center
+}
+

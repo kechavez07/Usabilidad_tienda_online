@@ -1,0 +1,32 @@
+
+.filter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: rgba(205, 230,240, 0.45);
+    height: 35px;
+    align-items: center;
+    
+  }
+  
+  .lista{
+    display: flex;
+    gap: 1.5rem;  
+  
+  }
+  
+  /*hacer que se hagan un boton de manera grafica */
+  .lista > li,a:hover{
+    cursor: pointer;
+  }
+  
+  .info{
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .shop{
+    height: 100%;
+    display: flex;
+  }

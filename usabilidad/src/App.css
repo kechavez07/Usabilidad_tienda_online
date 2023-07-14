@@ -1,10 +1,16 @@
+@import url(src\css\loging.css);
+@import url(src\css\NavBar.css);
+@import url(src\css\Filter.css);
+@import url(src\css\Categorias.css);
+
+
 *{
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 text-decoration: none;
 list-style: none;
- /* border: solid red;    */
+ /* border: solid red;     */
 }
 
 .App{
@@ -12,124 +18,6 @@ list-style: none;
   height: 900px;
   
 }
-
-.navBar{
-  display: flex;
-  height: 60px;
-  background-color: rgba(14, 9, 242, 0.24);
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo{
-  height: 55px;
-  display: flex;
-  padding: 0 2rem;
-}
-
-.logo >img{
-  height: 58px;
-  cursor: pointer;
-}
-
-.logo >h1{
-  padding: 13px 0;
-}
-
-.navBar_icon{
-  display: flex;
-  height: 60px;
-  margin-left: 2rem;
-  justify-content: space-between;
-  width: 25%;
-  /* margin-right: 35px; */
-  align-items: center;
-}
-
-.loginAndCart{
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  gap: 1rem;
-}
-
-.search > input{
-  height: 30px;
-  border: solid 1px black;
-  border-radius: 8px;
-  background-color: transparent;
-  padding-left: 2rem;
-}
-
-.fa-solid, .fa-user{
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.search{
-  position:relative;
-  width: 35%;
-}
-
-.fa-magnifying-glass{
-  font-size: 20px;
-  position:absolute;
-  left: 6px;
-  top: 5px;
-}
-
-.filter{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2rem;
-  background-color: rgba(205, 230,240, 0.45);
-  height: 35px;
-  align-items: center;
-  
-}
-
-.lista{
-  display: flex;
-  gap: 1.5rem;  
-
-}
-
-/*hacer que se hagan un boton de manera grafica */
-.lista > li,a:hover{
-  cursor: pointer;
-}
-
-.info{
-  display: flex;
-  gap: 1rem;
-}
-
-.shop{
-  height: 100%;
-  display: flex;
-}
-
-.categorias{
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0;
-  width: 20%;
-  height: 100%;
-  background-color: rgba(205, 230,240, 0.45);
-
-}
-
-.categoriasList{
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-
-.categoriasList > li:hover{
-  cursor: pointer;
-}
-
 .producto{
   display: flex;
   justify-content: center;
@@ -182,19 +70,4 @@ list-style: none;
   top: -17px;
   right: 10px;
   font-size: 20px;
-}
-/* login */
-.fameloging{
-  width: 80px;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2rem;
-  background-color: rgba(205, 230,240, 0.45);
-  align-items: center;
-
-} 
-.botonIngresarlogin{
-  display: flex;
-  justify-content: center
 }
