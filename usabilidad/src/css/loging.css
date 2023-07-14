@@ -27,9 +27,12 @@
 
 }
 
+.userlist > li {
+  display: flex;
+  font-size: 30px;
+}
 .userlist > li:hover{
-  display: flex; 
-
+  cursor: pointer;
 }
 
 .botonIngresarlogin{
