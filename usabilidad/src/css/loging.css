@@ -1,0 +1,45 @@
+.fameloging{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  justify-content: space-around;
+  background-color: rgba(205, 230,240, 0.45);
+} 
+
+.fameloging > img{
+  height: 100px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.userlist{
+  border: solid red;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.userlist > li {
+  display: flex;
+  font-size: 30px;
+}
+.userlist > li:hover{
+  cursor: pointer;
+}
+
+.botonIngresarlogin{
+  display: flex;
+  justify-content: center
+}
+.iconoslogin {
+  display: flex;
+  justify-content: center;
+}

@@ -21,7 +21,7 @@ const Producto = () => {
         <div className='producto'>
             {
                 producsData.map((productItem)=>(
-                    <Card  key={productItem.id} description={productItem.description} image={productItem.image} price={productItem.price} title={productItem.title}/>     
+                    <Card  key={productItem.id} description={productItem.description} image={productItem.image} price={productItem.price} title={productItem.title}/> 
                 ))
             }
         </div>

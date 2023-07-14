@@ -1,0 +1,64 @@
+.navBar{
+    display: flex;
+    height: 60px;
+    background-color: rgba(14, 9, 242, 0.24);
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo{
+    height: 55px;
+    display: flex;
+    padding: 0 2rem;
+  }
+  
+  .logo >img{
+    height: 58px;
+    cursor: pointer;
+  }
+  
+  .logo >h1{
+    padding: 13px 0;
+  }
+  
+  .navBar_icon{
+    display: flex;
+    height: 60px;
+    margin-left: 2rem;
+    justify-content: space-between;
+    width: 25%;
+    /* margin-right: 35px; */
+    align-items: center;
+  }
+  
+  .loginAndCart{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .search > input{
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: transparent;
+    padding-left: 2rem;
+  }
+  
+  .fa-solid, .fa-user{
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .search{
+    position:relative;
+    width: 35%;
+  }
+  
+  .fa-magnifying-glass{
+    font-size: 20px;
+    position:absolute;
+    left: 6px;
+    top: 5px;
+  }

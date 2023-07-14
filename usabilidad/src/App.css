@@ -1,10 +1,16 @@
+@import url("../src/css/loging.css");
+@import url("../src/css/NavBar.css");
+@import url("../src/css/Filter.css");
+@import url("../src/css/Categorias.css");
+
+
 *{
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 text-decoration: none;
 list-style: none;
- /* border: solid red;    */
+ /* border: solid red;     */
 }
 
 .App{
@@ -12,6 +18,7 @@ list-style: none;
   height: 900px;
   
 }
+<<<<<<< HEAD
 
 .navBar{
   display: flex;
