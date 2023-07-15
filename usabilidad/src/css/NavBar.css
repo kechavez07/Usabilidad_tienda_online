@@ -19,6 +19,7 @@
   
   .logo >h1{
     padding: 13px 0;
+    cursor: pointer;
   }
   
   .navBar_icon{

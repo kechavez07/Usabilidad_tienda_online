@@ -1,13 +1,14 @@
 .fameloging{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 30px;
+  width: 350px;
+  height: 515px;
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 500px;
   justify-content: space-around;
   background-color: rgba(205, 230,240, 0.45);
+  padding: 1rem;
 } 
 
 .fameloging > img{
@@ -15,16 +16,14 @@
   width: 120px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  
 }
 
 .userlist{
-  border: solid red;
   height: 175px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .userlist > li {
@@ -34,12 +33,45 @@
 .userlist > li:hover{
   cursor: pointer;
 }
+.userlist > input{
+  height: 30px;
+  border-radius: 8px;
+  padding-left: 1rem; 
+}
 
 .botonIngresarlogin{
   display: flex;
-  justify-content: center
+  justify-content: center;
+  gap: 2rem;
 }
+
+.botonIngresarlogin > button{
+  background-color: #e45d28; 
+  color: white; 
+  padding: 10px;
+  border: none; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
 .iconoslogin {
+  height: 20%;
   display: flex;
   justify-content: center;
+  gap: 1rem;
+  border: solid red;
 }
+
+.iconoslogin > box-icon {
+  border: solid red;
+  display: inline-block;
+  justify-content: center;
+  padding: 2rem;
+}
+
+
