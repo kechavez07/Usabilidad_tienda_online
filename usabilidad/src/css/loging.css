@@ -1,26 +1,38 @@
-.fameloging{
+.login{
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  padding: 0 2rem;
   width: 350px;
   height: 515px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   background-color: rgba(205, 230,240, 0.45);
-  padding: 1rem;
+  gap: 2rem;
 } 
 
-.fameloging > img{
+.loginCabecera{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loginCabecera > img{
   height: 100px;
   width: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  
+}
+
+.loginCabecera > span{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
 }
 
 .userlist{
-  height: 175px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,9 +42,9 @@
   display: flex;
   font-size: 30px;
 }
-.userlist > li:hover{
+/* .userlist > li:hover{
   cursor: pointer;
-}
+} */
 .userlist > input{
   height: 30px;
   border-radius: 8px;
@@ -69,9 +81,8 @@
 
 .iconoslogin > box-icon {
   border: solid red;
-  display: inline-block;
-  justify-content: center;
-  padding: 2rem;
+  /* padding: 2rem; */
+  font: 60px;
 }
 
 
