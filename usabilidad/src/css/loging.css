@@ -42,9 +42,7 @@
   display: flex;
   font-size: 30px;
 }
-/* .userlist > li:hover{
-  cursor: pointer;
-} */
+
 .userlist > input{
   height: 30px;
   border-radius: 8px;
@@ -81,8 +79,7 @@
 
 .iconoslogin > box-icon {
   border: solid red;
-  /* padding: 2rem; */
-  font: 60px;
+  font: px;
 }
 
 

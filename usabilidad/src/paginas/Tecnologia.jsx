@@ -1,27 +1,25 @@
 import React, { useEffect, useState } from 'react';
-import Card from './Card';
+import Card from '../componets/Card';
 import axios from 'axios';
+import Categorias from '../componets/Categorias';
 
-
-
-const Producto = () => {
-
-    const[producsData,setProducsData]=useState([])
-
+const Tecnologia = () => {
+    const[tecnologia,setTecnologia]=useState([])
+    
     useEffect(()=>{
         GetData()
     },[])
 
     const GetData=()=>{
-        axios.get("https://fakestoreapi.com/products")
-        .then(res => setProducsData(res.data))
+        axios.get("https://fakestoreapi.com/products/category/electronics")
+        .then(res => setTecnologia(res.data))
     }
 
     return (
         <div className='producto'>
-            
+            <Categorias/>
             {
-                producsData.map((productItem)=>(
+                tecnologia.map((productItem)=>(
                     <Card  key={productItem.id} description={productItem.description} image={productItem.image} price={productItem.price} title={productItem.title}/> 
                 ))
             }
@@ -29,4 +27,4 @@ const Producto = () => {
     );
 };
 
-export default Producto;
+export default Tecnologia;

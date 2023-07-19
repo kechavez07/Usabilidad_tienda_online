@@ -1,18 +1,22 @@
-import React from 'react';
+import React, { useEffect,useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 const Categorias = () => {
+    const navigate = useNavigate()
+
     return (
         <div className='categorias'>
             <ul className='categoriasList'>
-                <li>
-                    ROPA
+                <li onClick={()=>navigate(`/tecnologia`)}>
+                    TECNOLOGIA
                 </li>
-                <li>
-                    REBAJAS
+                <li  onClick={()=>navigate(`/joyeria`)}>
+                    JOYERIA
                 </li>
-                <li>ACCESORIOS</li>
-                <li>
-                    ZAPATOS
+                <li  onClick={()=>navigate(`/ropaHombre`)}>ROPA DE HOMBRE</li>
+                <li  onClick={()=>navigate(`/ropaMujer`)}>
+                    ROPA DE MUJERERS
                 </li>
             </ul>
         </div>

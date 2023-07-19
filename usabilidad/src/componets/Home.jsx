@@ -4,15 +4,17 @@ import Categorias from './Categorias';
 import Producto from './Producto';
 
 const Home = () => {
-    return (
-        <div>
-            <Filter/>
+  
+  
+  return (
+    <div>
+      <Filter/>
       <div className='shop'>
         <Categorias/>
         <Producto/>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Home;

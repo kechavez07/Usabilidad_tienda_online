@@ -10,6 +10,10 @@ import {HashRouter,Routes,Route} from 'react-router-dom'
 import Register from './componets/Register'
 import Home from './componets/Home'
 import SobreNosotros from './componets/SobreNosotros'
+import Tecnologia from './paginas/Tecnologia'
+import Joyeria from './paginas/Joyeria'
+import RopaHombres from './paginas/RopaHombre'
+import RopaMujer from './paginas/RopaMujer'
 
 
 
@@ -26,6 +30,10 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/sobreNosotros' element={<SobreNosotros/>}/>
+          <Route path='/tecnologia' element={<Tecnologia/>}/>
+          <Route path='/joyeria' element={<Joyeria/>}/>
+          <Route path='/ropaHombre' element={<RopaHombres/>}/>
+          <Route path='/ropaMujer' element={<RopaMujer/>}/>
         </Route>
       </Routes>
     </HashRouter>

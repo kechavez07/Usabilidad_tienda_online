@@ -1,27 +1,25 @@
 import React, { useEffect, useState } from 'react';
-import Card from './Card';
+import Card from '../componets/Card';
 import axios from 'axios';
+import Categorias from '../componets/Categorias';
 
-
-
-const Producto = () => {
-
-    const[producsData,setProducsData]=useState([])
-
+const RopaMujer = () => {
+    const[ropaMujer,setRopaMujer]=useState([])
+    
     useEffect(()=>{
         GetData()
     },[])
 
     const GetData=()=>{
-        axios.get("https://fakestoreapi.com/products")
-        .then(res => setProducsData(res.data))
+        axios.get("https://fakestoreapi.com/products/category/women's clothing")
+        .then(res => setRopaMujer(res.data))
     }
 
     return (
         <div className='producto'>
-            
+            <Categorias/>
             {
-                producsData.map((productItem)=>(
+                ropaMujer.map((productItem)=>(
                     <Card  key={productItem.id} description={productItem.description} image={productItem.image} price={productItem.price} title={productItem.title}/> 
                 ))
             }
@@ -29,4 +27,4 @@ const Producto = () => {
     );
 };
 
-export default Producto;
+export default RopaMujer;
