@@ -5,8 +5,11 @@
     width: 20%;
     height: 100%;
     background-color: rgba(205, 230,240, 0.45);
+    position: sticky;
+    top: 20px; /* Ajusta el valor según la cantidad de desplazamiento que desees */
+    z-index: 1; /* Opcional: Define el orden de apilamiento si hay otros elementos con posición z-index en la página */
   }
-  
+
   .categoriasList{
     display: flex;
     flex-direction: column;

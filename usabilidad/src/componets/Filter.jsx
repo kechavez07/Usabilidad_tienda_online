@@ -18,7 +18,7 @@ const Filter = () => {
             </ul>
                 <div className='info'>
                 <box-icon name='info-circle'></box-icon>
-            <a onClick={()=>navigate('/sobreNosotros')}>Sobre nosotros</a>
+            <a onClick={()=>navigate('/sobreNosotros')}>Sobre Nosotros</a>
             </div>
         </div>
     );

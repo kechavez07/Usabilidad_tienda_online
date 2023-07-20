@@ -8,7 +8,7 @@ const Login = () => {
         <div className='login'>
             <div className='loginCabecera'>
                 <img src="src\assets\iconos\onlineShop.png"/>
-                <span>INICIAR CECION </span>
+                <span>INICIAR SESION </span>
             </div>
             <ul className='userlist'>
                 <li>

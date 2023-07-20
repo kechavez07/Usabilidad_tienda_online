@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
 .login{
   margin-left: auto;
   margin-right: auto;
@@ -74,11 +86,9 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  border: solid red;
 }
 
 .iconoslogin > box-icon {
-  border: solid red;
   font: px;
 }
 

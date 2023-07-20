@@ -16,7 +16,7 @@ const Categorias = () => {
                 </li>
                 <li  onClick={()=>navigate(`/ropaHombre`)}>ROPA DE HOMBRE</li>
                 <li  onClick={()=>navigate(`/ropaMujer`)}>
-                    ROPA DE MUJERERS
+                    ROPA DE MUJER
                 </li>
             </ul>
         </div>

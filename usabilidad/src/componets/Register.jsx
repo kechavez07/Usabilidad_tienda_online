@@ -5,7 +5,7 @@ const Register = () => {
         <div className='registrar'>
             <div className='registrarCabesera'>
                 <img src="src\assets\iconos\onlineShop.png"/>
-                <span>REGISTARSE</span>
+                <span>REGISTRARSE</span>
             </div>
             <ul className='registrarList'>
                 <li>
