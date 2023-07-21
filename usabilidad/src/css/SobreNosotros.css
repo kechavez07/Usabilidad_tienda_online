@@ -1,0 +1,16 @@
+.sobreNosotros{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 0 2rem;
+    width: 350px;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(205, 230,240, 0.45);
+    gap: 2rem;
+}
+.sobreNosotros > span{
+    justify-content: center;
+}

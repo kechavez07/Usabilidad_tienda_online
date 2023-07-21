@@ -3,9 +3,11 @@ import React from 'react';
 const SobreNosotros = () => {
     
     return (
-        <div>
+        <div className = 'sobreNosotros'>
             <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum obcaecati illo rem quis optio consequuntur atque! At reprehenderit eligendi vel, porro esse excepturi pariatur aperiam. Recusandae velit consequuntur ducimus accusamus!</p>
+                <span>TIENDA VIRTUAL DE CALIDAD</span>
+                <p>Aspiramos a ser el destino de referencia para hombres y mujeres que buscan estilo, calidad y variedad en ropa y accesorios. Ofreciendo una experiencia de compra en linea excepcional que satisfaga las necesidades de la moda y estilo de nuestros clientes.</p>
+                <p>proporcionando a nuestros clientes una tienda que ofresca una seleccion unica y diversa de productos de calidad y diseño isgnovador, brindando una experiencia de compra en linea conveniente, segura y personalisada</p>
             </div>
             
         </div>
