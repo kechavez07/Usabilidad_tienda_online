@@ -4,14 +4,15 @@
     background-color: rgba(14, 9, 242, 0.24);
     justify-content: space-between;
     align-items: center;
+    padding: 0 1rem; 
   }
 
   @media screen and (max-width: 768px) {
     /* Ajustar el tamaño y reorganizar elementos para dispositivos móviles */
     .navBar {
-      height: 80px; /* Aumentar la altura para más espacio en dispositivos móviles */
+      height: 120px; /* Aumentar la altura para más espacio en dispositivos móviles */
       flex-direction: column; /* Organizar los elementos en una columna */
-      justify-content: center; /* Centrar verticalmente los elementos */
+      align-items: center;
     }
   
     .logo {
@@ -32,32 +33,33 @@
     }
   
     .search > input {
-      height: 40px; /* Aumentar la altura del campo de búsqueda para mejorar la usabilidad en dispositivos móviles */
+      height: 20px; /* Aumentar la altura del campo de búsqueda para mejorar la usabilidad en dispositivos móviles */
     }
   }
   
   .logo{
     height: 55px;
     display: flex;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
   
   .logo >img{
-    height: 58px;
+    height: 40px;
     cursor: pointer;
   }
   
   .logo >h1{
     padding: 13px 0;
     cursor: pointer;
+    font-size: 18px; 
   }
   
   .navBar_icon{
     display: flex;
     height: 60px;
-    margin-left: 2rem;
+    margin-left: 1rem;
     justify-content: space-between;
-    width: 25%;
+    /*width: 25%;
     /* margin-right: 35px; */
     align-items: center;
   }
@@ -65,7 +67,7 @@
   .loginAndCart{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    /*padding: 1rem;*/
     gap: 1rem;
   }
   
@@ -74,7 +76,8 @@
     border: solid 1px black;
     border-radius: 8px;
     background-color: transparent;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    width: 100%;
   }
   
   .fa-solid, .fa-user{
@@ -83,13 +86,13 @@
   }
   
   .search{
-    position:relative;
-    width: 35%;
+    position: relative;
+    flex: 1;
   }
   
   .fa-magnifying-glass{
     font-size: 20px;
-    position:absolute;
+    position: absolute;
     left: 6px;
     top: 5px;
   }
