@@ -11,6 +11,19 @@
     background-color: rgba(205, 230,240, 0.45);
     gap: 2rem;
 }
+
+/* Estilos para tamaños de pantalla más pequeños (ejemplo: dispositivos móviles) */
+@media screen and (max-width: 768px) {
+    .sobreNosotros {
+        width: 90%; /* Reducir el ancho para dispositivos móviles */
+        height: auto; /* Ajustar la altura automáticamente según el contenido */
+    }
+
+    .sobreNosotros > span {
+        font-size: 20px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    }
+}
+
 .sobreNosotros > span{
     justify-content: center;
 }

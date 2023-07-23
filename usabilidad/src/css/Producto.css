@@ -9,6 +9,21 @@
     position: relative;
   }
   
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%; /* Reducir el ancho de las tarjetas para dispositivos más pequeños */
+      height: 250px; /* Ajustar la altura para dispositivos más pequeños */
+    }
+  
+    .ProducImg > img {
+      width: 50px; /* Reducir el tamaño de la imagen para dispositivos más pequeños */
+    }
+  
+    .producto {
+      gap: 1.5rem; /* Reducir el espacio entre las tarjetas para dispositivos más pequeños */
+    }
+  }
+  
   .pieImg{
     padding: 1rem;
     display: flex;

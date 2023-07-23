@@ -1,21 +1,64 @@
-.categorias{
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-    width: 20%;
-    height: 100%;
-    background-color: rgba(205, 230,240, 0.45);
-    position: sticky;
-    top: 20px; /* Ajusta el valor según la cantidad de desplazamiento que desees */
-    z-index: 1; /* Opcional: Define el orden de apilamiento si hay otros elementos con posición z-index en la página */
+.categorias {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  width: 20%;
+  height: 100%;
+  background-color: rgba(205, 230, 240, 0.45);
+  position: sticky;
+  top: 20px; /* Ajusta el valor según la cantidad de desplazamiento que desees */
+  z-index: 1; /* Opcional: Define el orden de apilamiento si hay otros elementos con posición z-index en la página */
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+
+  .categorias {
+    /* Ajustar estilos para dispositivos móviles */
+    width: 100%; /* Ocupar todo el ancho de la pantalla */
+    max-height: 300px; /* Limitar la altura máxima para evitar ocupar toda la pantalla */
+    top: 0; /* Reiniciar la propiedad 'top' para que se muestre en la parte superior */
+    flex-direction: column; /* Mostrar los elementos en una columna */
+    align-items: center; /* Centrar horizontalmente los elementos */
   }
 
-  .categoriasList{
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  .categoriasList {
+    gap: 1rem; /* Reducir el espacio entre los elementos */
   }
-  
-  .categoriasList > li:hover{
+
+  .categoriasList > li:hover {
     cursor: pointer;
   }
+
+  /* Ajustar la posición del icono principal y el nombre de la página */
+  .logo {
+    order: 2; /* Cambiar el orden de aparición para mostrar después de la lista de categorías */
+    margin-top: 10px; /* Ajustar el margen superior para separar del campo de búsqueda */
+    padding: 1rem 0.5rem; /* Reducir el relleno para más espacio en dispositivos móviles */
+  }
+
+  .logo > h1 {
+    font-size: 18px; /* Reducir el tamaño de fuente del título del logotipo */
+  }
+
+  .navBar_icon {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Cambiar el posicionamiento a relativo */
+    order: 2; /* Cambiar el orden de aparición para mostrar después de la lista de categorías */
+    margin-top: 10px; /* Ajustar el margen superior para separar del campo de búsqueda */
+  }
+}
+
+.categoriasList {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.categoriasList > li:hover {
+  cursor: pointer;
+}

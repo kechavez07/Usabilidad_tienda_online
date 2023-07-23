@@ -10,6 +10,35 @@
     
   }
   
+  
+  /* Estilos para tamaños de pantalla más pequeños (ejemplo: dispositivos móviles) */
+@media screen and (max-width: 768px) {
+  .filter {
+    /* Ajustar estilos para dispositivos móviles */
+    flex-direction: column; /* Cambiar la dirección de los elementos a una columna */
+    height: auto; /* Ajustar la altura automáticamente según el contenido */
+    padding: 1rem; /* Reducir el relleno para más espacio en pantallas pequeñas */
+  }
+
+  .lista {
+    flex-wrap: wrap; /* Permitir que los elementos de la lista se envuelvan en varias líneas */
+    gap: 0.5rem; /* Reducir el espacio entre los elementos */
+  }
+
+  .lista > li,
+  .lista > a {
+    margin-bottom: 0.5rem; /* Agregar un margen inferior entre los elementos de la lista */
+    width: fit-content; /* Ajustar el ancho del elemento al contenido */
+    padding: 0.5rem 1rem; /* Ajustar el relleno para un aspecto más botón */
+    border-radius: 4px; /* Agregar bordes redondeados para simular un botón */
+    background-color: rgba(205, 230, 240, 0.8); /* Cambiar el color de fondo para resaltar el botón */
+  }
+
+  .info {
+    flex-direction: column; /* Cambiar la dirección de los elementos a una columna */
+    gap: 0.5rem; /* Reducir el espacio entre los elementos */
+  }
+}
   .lista{
     display: flex;
     gap: 1.5rem;  

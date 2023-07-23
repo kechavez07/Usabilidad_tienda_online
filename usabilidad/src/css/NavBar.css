@@ -5,6 +5,36 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  @media screen and (max-width: 768px) {
+    /* Ajustar el tamaño y reorganizar elementos para dispositivos móviles */
+    .navBar {
+      height: 80px; /* Aumentar la altura para más espacio en dispositivos móviles */
+      flex-direction: column; /* Organizar los elementos en una columna */
+      justify-content: center; /* Centrar verticalmente los elementos */
+    }
+  
+    .logo {
+      padding: 0.5rem; /* Reducir el relleno para más espacio en dispositivos móviles */
+    }
+  
+    .logo > h1 {
+      font-size: 18px; /* Reducir el tamaño de fuente del título del logotipo */
+    }
+  
+    .navBar_icon {
+      display: none; /* Ocultar los iconos en dispositivos móviles */
+    }
+  
+    .search {
+      width: 100%; /* Asegurar que el campo de búsqueda ocupe toda la anchura disponible */
+      margin-bottom: 1rem; /* Agregar un margen inferior para separar el campo de búsqueda de otros elementos */
+    }
+  
+    .search > input {
+      height: 40px; /* Aumentar la altura del campo de búsqueda para mejorar la usabilidad en dispositivos móviles */
+    }
+  }
   
   .logo{
     height: 55px;

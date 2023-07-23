@@ -12,6 +12,29 @@
     gap: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+    .registrar {
+        width: 90%; /* Reducir el ancho del formulario para dispositivos móviles */
+        height: auto; /* Ajustar la altura automáticamente según el contenido */
+    }
+
+    .registrarCabesera > span {
+        font-size: 30px; /* Reducir el tamaño de fuente del título para dispositivos móviles */
+    }
+
+    .registrarList > li {
+        font-size: 20px; /* Reducir el tamaño de fuente de los elementos de lista para dispositivos móviles */
+    }
+
+    .registrarList > input {
+        height: 40px; /* Aumentar la altura del campo de entrada para mejorar la usabilidad en dispositivos móviles */
+    }
+
+    .registrarBoton > button {
+        font-size: 14px; /* Reducir el tamaño de fuente del botón para dispositivos móviles */
+    }
+}
+
 .registrarCabesera{
     display: flex;
     flex-direction: column;
