@@ -21,6 +21,7 @@
   
     .logo > h1 {
       font-size: 18px; /* Reducir el tamaño de fuente del título del logotipo */
+      color: aqua;
     }
   
     .navBar_icon {

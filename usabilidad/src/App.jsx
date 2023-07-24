@@ -24,6 +24,7 @@ function App() {
     <div className='App'>
     <HashRouter>
     <NavBar/>
+    <Filter/>
       <Routes>
         <Route>
           <Route path='/' element={<Home/>}/>

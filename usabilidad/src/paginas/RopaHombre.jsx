@@ -17,7 +17,6 @@ const RopaHombres = () => {
 
     return (
         <div className='producto'>
-            <Categorias/>
             {
                 ropaHombres.map((productItem)=>(
                     <Card  key={productItem.id} description={productItem.description} image={productItem.image} price={productItem.price} title={productItem.title}/> 

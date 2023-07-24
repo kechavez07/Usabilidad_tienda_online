@@ -8,9 +8,7 @@ const Home = () => {
   
   return (
     <div>
-      <Filter/>
       <div className='shop'>
-        <Categorias/>
         <Producto/>
       </div>
     </div>

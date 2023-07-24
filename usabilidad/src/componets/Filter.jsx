@@ -6,14 +6,15 @@ const Filter = () => {
     return (
         <div className='filter'>
             <ul className='lista'>
-                <li>
-                    Mujer
+                <li onClick={()=>navigate(`/tecnologia`)}>
+                    TECNOLOGIA
                 </li>
-                <li>
-                    Hombre
+                <li  onClick={()=>navigate(`/joyeria`)}>
+                    JOYERIA
                 </li>
-                <li>
-                    niño
+                <li  onClick={()=>navigate(`/ropaHombre`)}>ROPA DE HOMBRE</li>
+                <li  onClick={()=>navigate(`/ropaMujer`)}>
+                    ROPA DE MUJER
                 </li>
             </ul>
                 <div className='info'>
