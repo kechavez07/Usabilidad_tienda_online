@@ -5,8 +5,9 @@
   "homepage": "http//kechavez07.github.io//Usabilidad_tienda_online/tree/main/usabilidad",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
     "dev": "vite",
-    "deploy":"gh-pages -d build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
