@@ -2,7 +2,7 @@
   "name": "usabilidad",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http//kechavez07.github.io//Usabilidad_tienda_online/tree/main/usabilidad",
+  "homepage": "http//kechavez07.github.io/Usabilidad_tienda_online",
   "type": "module",
   "scripts": {
     "predeploy":"npm run build",
